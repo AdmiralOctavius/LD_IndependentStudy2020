@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Gray
+  m_Name: DarkerGray
   m_Shader: {fileID: -6465566751694194690, guid: a06644c141d3d7a4593b84edab957505,
     type: 3}
   m_ShaderKeywords: 
@@ -229,8 +229,8 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_3C83AD62: {r: 0, g: 0, b: 0, a: 0}
-    - Color_41F74FCA: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 0}
+    - Color_3C83AD62: {r: 0, g: 0, b: 0, a: 1}
+    - Color_41F74FCA: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
