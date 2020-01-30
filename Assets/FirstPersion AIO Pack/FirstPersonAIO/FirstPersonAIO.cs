@@ -113,7 +113,7 @@ public class FirstPersonAIO : MonoBehaviour {
         public float crouchWalkSpeedMultiplier = 0.5f;
         public float crouchJumpPowerMultiplier = 0f;
         public bool crouchOverride;
-        internal float colliderHeight;
+        public float colliderHeight;
         
     }
     public CrouchModifiers _crouchModifiers = new CrouchModifiers();
