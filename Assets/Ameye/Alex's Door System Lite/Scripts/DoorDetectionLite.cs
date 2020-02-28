@@ -52,25 +52,52 @@ public class DoorDetectionLite : MonoBehaviour
             if (hit.collider.tag == "Door")
             {
                 InReach = true;
-
-                // Display the UI element when the player is in reach of the door
-                if (TextActive == false && TextPrefab != null)
+                if (hit.collider.gameObject.name == "LockedDoor")
                 {
-                    TextPrefabInstance = Instantiate(TextPrefab);
-                    TextActive = true;
-                    TextPrefabInstance.transform.SetParent(transform, true); // Make the player the parent object of the text element
+                    if(gameObject.GetComponent<coinHolder>().coinCount >= 4)
+                    {
+                        // Display the UI element when the player is in reach of the door
+                        if (TextActive == false && TextPrefab != null)
+                        {
+                            TextPrefabInstance = Instantiate(TextPrefab);
+                            TextActive = true;
+                            TextPrefabInstance.transform.SetParent(transform, true); // Make the player the parent object of the text element
+                        }
+
+                        // Give the object that was hit the name 'Door'
+                        GameObject Door = hit.transform.gameObject;
+
+                        // Get access to the 'Door' script attached to the object that was hit
+                        DoorRotationLite dooropening = Door.GetComponent<DoorRotationLite>();
+
+                        if (Input.GetKey(Character))
+                        {
+                            // Open/close the door by running the 'Open' function found in the 'Door' script
+                            if (dooropening.RotationPending == false) StartCoroutine(hit.collider.GetComponent<DoorRotationLite>().Move());
+                        }
+                    }
                 }
-
-                // Give the object that was hit the name 'Door'
-                GameObject Door = hit.transform.gameObject;
-
-                // Get access to the 'Door' script attached to the object that was hit
-                DoorRotationLite dooropening = Door.GetComponent<DoorRotationLite>();
-
-                if (Input.GetKey(Character))
+                else
                 {
-                    // Open/close the door by running the 'Open' function found in the 'Door' script
-                    if (dooropening.RotationPending == false) StartCoroutine(hit.collider.GetComponent<DoorRotationLite>().Move());
+                    // Display the UI element when the player is in reach of the door
+                    if (TextActive == false && TextPrefab != null)
+                    {
+                        TextPrefabInstance = Instantiate(TextPrefab);
+                        TextActive = true;
+                        TextPrefabInstance.transform.SetParent(transform, true); // Make the player the parent object of the text element
+                    }
+
+                    // Give the object that was hit the name 'Door'
+                    GameObject Door = hit.transform.gameObject;
+
+                    // Get access to the 'Door' script attached to the object that was hit
+                    DoorRotationLite dooropening = Door.GetComponent<DoorRotationLite>();
+
+                    if (Input.GetKey(Character))
+                    {
+                        // Open/close the door by running the 'Open' function found in the 'Door' script
+                        if (dooropening.RotationPending == false) StartCoroutine(hit.collider.GetComponent<DoorRotationLite>().Move());
+                    }
                 }
             }
 
