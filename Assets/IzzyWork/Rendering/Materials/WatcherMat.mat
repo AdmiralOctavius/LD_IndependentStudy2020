@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: White
-  m_Shader: {fileID: -6465566751694194690, guid: a06644c141d3d7a4593b84edab957505,
+  m_Name: WatcherMat
+  m_Shader: {fileID: -6465566751694194690, guid: 7cff04a248872894ab47d2229873c65e,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -107,9 +107,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_A2382F67: 1
-    - Vector1_A4F7AF0A: 1
-    - Vector1_C375E4C7: 1
+    - Vector1_D533AEFF: 0.37
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -230,8 +228,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_3C83AD62: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0}
-    - Color_41F74FCA: {r: 1, g: 1, b: 1, a: 0}
+    - Color_C63ECA: {r: 1, g: 0.3537736, b: 0.3537736, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
