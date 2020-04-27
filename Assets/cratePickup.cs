@@ -9,6 +9,8 @@ public class cratePickup : MonoBehaviour
     public GameObject crateHolder;
     public GameObject crate;
     public bool crateHeld;
+
+    public float crateYPos;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +24,8 @@ public class cratePickup : MonoBehaviour
         if (crateHeld)
         {
             //create check here to have object he held higher above head if camera angle is -20x
-            crate.transform.position = crateHolder.transform.position;
-
+            crate.transform.position = new Vector3(crateHolder.transform.position.x,crateYPos, crateHolder.transform.position.z);
+            
         }
 
         if (Input.GetButtonDown("Interact"))
@@ -45,6 +47,7 @@ public class cratePickup : MonoBehaviour
                         crate.GetComponent<Rigidbody>().useGravity = false;
                         crateHeld = true;
                         crate.GetComponent<Rigidbody>().freezeRotation = true;
+                        crateYPos = crate.transform.position.y;
                     }
                 }
             }

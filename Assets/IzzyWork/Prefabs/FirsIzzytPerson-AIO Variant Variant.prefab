@@ -24,10 +24,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656499882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.6, z: 3}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 3614932959820134320}
+  m_Father: {fileID: 3615246093250874446}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2121888364
@@ -56,7 +56,7 @@ PrefabInstance:
     - target: {fileID: 8872200118887705789, guid: c52e779c0a055fa4f95967d0fe4afe4c,
         type: 3}
       propertyPath: m_Name
-      value: FirsIzzytPerson-AIO Variant
+      value: FirsIzzytPerson-AIO Variant Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8874796531668317591, guid: c52e779c0a055fa4f95967d0fe4afe4c,
         type: 3}
@@ -156,9 +156,9 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5260894059612027353}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &3614932959820134320 stripped
+--- !u!4 &3615246093250874446 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8874520198050025065, guid: c52e779c0a055fa4f95967d0fe4afe4c,
+  m_CorrespondingSourceObject: {fileID: 8874796531668317591, guid: c52e779c0a055fa4f95967d0fe4afe4c,
     type: 3}
   m_PrefabInstance: {fileID: 5260894059612027353}
   m_PrefabAsset: {fileID: 0}
