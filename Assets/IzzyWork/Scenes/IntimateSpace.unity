@@ -483,7 +483,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-69276
+  m_Name: pb_Mesh168142
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3444,15 +3444,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8841518159182725243, guid: c52e779c0a055fa4f95967d0fe4afe4c,
-        type: 3}
-      propertyPath: jumpPower
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 8928313925236997197, guid: c52e779c0a055fa4f95967d0fe4afe4c,
         type: 3}
       propertyPath: m_Mass
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841518159182725243, guid: c52e779c0a055fa4f95967d0fe4afe4c,
+        type: 3}
+      propertyPath: jumpPower
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c52e779c0a055fa4f95967d0fe4afe4c, type: 3}
@@ -5168,7 +5168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &2124916484
 MeshCollider:
   m_ObjectHideFlags: 0

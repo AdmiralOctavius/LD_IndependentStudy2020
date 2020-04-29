@@ -8,10 +8,43 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/CoveCave.unity
+    guid: 572ee64b0686f914da2b8e466474f57d
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/BranchingFlytrap.unity
+    guid: e7a9744c3e1d92b46bdbdcc962ae6a53
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/NarrowSpace.unity
+    guid: 8b06d4f6c4905dc4eb1aa29808cc2c23
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/IntimateSpace.unity
+    guid: 5561e7b0068e3894486cb71e48f327aa
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/RiskCave.unity
+    guid: aeed4b3a3199df849af63933a0b78647
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/ShadowedCourtyard.unity
+    guid: f502fee0100616544b0ca2a8df5b6e09
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/RewardSpaces.unity
+    guid: e9f67cfdfabe5b74caf9639888513946
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/PostSpringBreakScenes/Chap8.unity
+    guid: 68177d9fe4f0f2440b6b6f8edcf19d1f
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/PostSpringBreakScenes/Chap9.unity
+    guid: 0bc6a8bcdd3c8984dab01c9452a686b2
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/PostSpringBreakScenes/Chap10.unity
+    guid: 6b20f25750e716b43a91689f99d72895
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/PostSpringBreakScenes/Chap11.unity
+    guid: 440548423850dfa409fe1a25123fbdb5
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/PostSpringBreakScenes/Chap12.unity
+    guid: ce9a99bf41408bb47946367fb3391a94
+  - enabled: 1
+    path: Assets/IzzyWork/Scenes/PostSpringBreakScenes/Chap13.unity
+    guid: 3c83640fc1735794380d7cb2804cfa7c
   m_configObjects: {}
