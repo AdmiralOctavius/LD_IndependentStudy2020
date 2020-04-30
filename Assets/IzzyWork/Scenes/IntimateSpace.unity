@@ -1611,7 +1611,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194241890}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8b2bc5d65b8a23249ac65e6a71b72204, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2466,7 +2466,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334177107}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ca77fab071e4fe54a96e7ba076c336bb, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -18823,7 +18823,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-107644
+  m_Name: pb_Mesh-1194
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24922,6 +24922,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f265be0c00d843b439efd31820aeaaba, type: 2}
+    - target: {fileID: 6502679394263281780, guid: 0ea83babfeafed1438b44e99940684bf,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ea83babfeafed1438b44e99940684bf, type: 3}
 --- !u!1 &877737356
@@ -26037,7 +26042,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-112014
+  m_Name: pb_Mesh59296
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -26221,7 +26226,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130077285}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ca77fab071e4fe54a96e7ba076c336bb, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -27762,7 +27767,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh197840
+  m_Name: pb_Mesh59268
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30652,7 +30657,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-111240
+  m_Name: pb_Mesh59434
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30883,9 +30888,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8841518159182725243, guid: c52e779c0a055fa4f95967d0fe4afe4c,
         type: 3}
+      propertyPath: dynamicFootstep.woodClipSet.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841518159182725243, guid: c52e779c0a055fa4f95967d0fe4afe4c,
+        type: 3}
       propertyPath: jumpPower
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8841518159182725243, guid: c52e779c0a055fa4f95967d0fe4afe4c,
+        type: 3}
+      propertyPath: dynamicFootstep.woodPhysMat
+      value: 
+      objectReference: {fileID: 13400000, guid: ca77fab071e4fe54a96e7ba076c336bb,
+        type: 2}
     - target: {fileID: 8874520198050025065, guid: c52e779c0a055fa4f95967d0fe4afe4c,
         type: 3}
       propertyPath: m_LocalPosition.y
