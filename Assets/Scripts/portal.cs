@@ -21,7 +21,8 @@ public class portal : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log("got here");
-        if (collision.gameObject.name == "FirsIzzytPerson-AIO Variant")
+        Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.name == "Player")
         {
             
             collision.gameObject.transform.position = teleportEnd.gameObject.transform.position;

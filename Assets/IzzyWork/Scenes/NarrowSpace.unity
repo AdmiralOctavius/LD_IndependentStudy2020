@@ -7020,7 +7020,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-51714
+  m_Name: pb_Mesh100690
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10884,15 +10884,15 @@ PrefabInstance:
       propertyPath: footStepSounds.Array.data[2]
       value: 
       objectReference: {fileID: 8300000, guid: 49a4a47af61a25b4fb37c589359ef09c, type: 3}
+    - target: {fileID: 8874520198050025065, guid: c52e779c0a055fa4f95967d0fe4afe4c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.03399992
+      objectReference: {fileID: 0}
     - target: {fileID: 8845725191764953511, guid: c52e779c0a055fa4f95967d0fe4afe4c,
         type: 3}
       propertyPath: m_Height
       value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8874520198050025065, guid: c52e779c0a055fa4f95967d0fe4afe4c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.153
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c52e779c0a055fa4f95967d0fe4afe4c, type: 3}
